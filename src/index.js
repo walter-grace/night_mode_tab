@@ -27,6 +27,9 @@ function DraggableList({ items }) {
   })
   return (
     <div>
+      <h3>
+        Drag your favorite coin around
+      </h3>
       <DarkModeToggle />
     <div className="content" style={{ height: items.length * 100 }}>
       {springs.map(({ zIndex, shadow, y, scale }, i) => (
